@@ -1,1 +1,18 @@
-{}
+{
+    "basic": {
+        "projectName": "basic",
+        "description": "basic auth",
+        "type": "community",
+        "author": "kdhttps",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/kdhttps/agama-basic-auth",
+        "githubUri": "https://github.com/kdhttps/agama-basic-auth",
+        "license": "MIT",
+        "lastUpdated": "1696955422954",
+        "tags": [
+            "jans"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
