@@ -1,23 +1,14 @@
 Flow co.basic
      Basepath ""
-// Create Auth Service Instance
 authService = Call io.jans.as.server.service.AuthenticationService#class 
-// Init CDIUtil Object
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
-// Declared empty result object
 authResult = {}
-// Retry 3 times if username and password are wrong
 Repeat 3 times max
-     // Load the login page to ask user credentials
      creds = RRF "login.ftlh" authResult
-     // Validate user credentials
      authResult.success = Call cdiUtil authenticate creds.username creds.password
-     // Keep username in case auth failed for retry
      authResult.uid = creds.username
-     // Check auth result is true
      When authResult.success is true
-          // store user id in local variable
-          userId = authResult.uid
-          // End flow by returning authResult.uid
-          Finish { success: true, data: { userId: userId } }
+          // return success true with user id
+          it_ovyqa = { success: true, data: { userId: authResult.uid}}
+          Finish it_ovyqa
 Finish false
