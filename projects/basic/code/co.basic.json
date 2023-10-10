@@ -61,7 +61,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -119,7 +120,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "authResult.uid",
+					"returnVariable": "{ success: true, data: { userId: authResult.uid } }",
 					"asssignmentExpression": "",
 					"javaClassName": "",
 					"javaMethodName": "",
@@ -130,10 +131,20 @@
 					"displayName": "Finish authResult.uid",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+					"nodeIcon": "material-symbols:line-end-square-rounded",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true,
+					"finishMode": "withSuccess"
+				},
+				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 782,
@@ -199,8 +210,17 @@
 					"assignCallbackResult": "",
 					"displayName": "",
 					"nodeColor": "",
-					"exceptionVariableField": ""
-				}
+					"exceptionVariableField": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -278,8 +298,10 @@
 							"assignmentExpression": "creds.username",
 							"assignedVariableName": "authResult.uid"
 						}
-					]
-				}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -349,8 +371,17 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "authResult.success"
-				}
+					"asssignedVariableName": "authResult.success",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -420,8 +451,17 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
-					"asssignedVariableName": "creds"
-				}
+					"asssignedVariableName": "creds",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -487,10 +527,19 @@
 					"displayName": "Retry Uath",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+					"nodeIcon": "material-symbols:event-repeat-outline-rounded",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 867,
@@ -563,8 +612,10 @@
 							"assignmentExpression": "{}",
 							"assignedVariableName": "authResult"
 						}
-					]
-				}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -631,8 +682,17 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "cdiUtil"
-				}
+					"asssignedVariableName": "cdiUtil",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -699,8 +759,17 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "authService"
-				}
+					"asssignedVariableName": "authService",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -758,7 +827,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"flowname": "co.basic"
-				}
+				},
+				"skake": false
 			},
 			"position": {
 				"x": 30,
@@ -948,8 +1018,8 @@
 		}
 	],
 	"viewport": {
-		"x": 96,
-		"y": 8.399999999999807,
+		"x": 19,
+		"y": -351.6000000000002,
 		"zoom": 1
 	}
 }
