@@ -69,7 +69,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -83,8 +84,8 @@
 			"height": 121,
 			"id": "finish-36a4814b-40c6-4efd-af03-77538aa1110c",
 			"position": {
-				"x": 1080,
-				"y": 30
+				"x": 1182,
+				"y": 102
 			},
 			"type": "finish",
 			"data": {
@@ -98,8 +99,8 @@
 					"Agama-repeat-Node-3701d190-389d-4a19-9c92-05be8853618f.InRepeatBlock"
 				],
 				"position": {
-					"x": 1080,
-					"y": 30
+					"x": 1182,
+					"y": 102
 				},
 				"agamaData": {
 					"id": "finish-36a4814b-40c6-4efd-af03-77538aa1110c",
@@ -127,7 +128,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "false",
+					"returnVariable": "{ success: false, error: \"Your error message here\" }",
 					"asssignmentExpression": "",
 					"javaClassName": "",
 					"javaMethodName": "",
@@ -138,14 +139,18 @@
 					"displayName": "Auth Failed",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+					"nodeIcon": "material-symbols:line-end-square-rounded",
+					"hasComment": true,
+					"finishMode": "withFailure",
+					"hasExtraData": true
+				},
+				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1080,
-				"y": 30
+				"x": 1182,
+				"y": 102
 			}
 		},
 		{
@@ -208,7 +213,8 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": ""
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -287,7 +293,8 @@
 							"assignedVariableName": "authResult.uid"
 						}
 					]
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -358,7 +365,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authResult.success"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -429,7 +437,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -443,8 +452,8 @@
 			"height": 121,
 			"id": "Agama-repeat-Node-3701d190-389d-4a19-9c92-05be8853618f",
 			"position": {
-				"x": 853,
-				"y": 55
+				"x": 908,
+				"y": 29.799999999999983
 			},
 			"type": "repeat",
 			"data": {
@@ -455,8 +464,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 853,
-					"y": 55
+					"x": 908,
+					"y": 29.799999999999983
 				},
 				"agamaData": {
 					"id": "Agama-repeat-Node-3701d190-389d-4a19-9c92-05be8853618f",
@@ -496,13 +505,14 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 853,
-				"y": 55
+				"x": 908,
+				"y": 29.799999999999983
 			}
 		},
 		{
@@ -572,7 +582,8 @@
 							"assignedVariableName": "authResult"
 						}
 					]
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -640,7 +651,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "cdiUtil"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -708,7 +720,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -766,7 +779,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"flowname": "co.basic"
-				}
+				},
+				"skake": false
 			},
 			"position": {
 				"x": 30,
@@ -956,8 +970,8 @@
 		}
 	],
 	"viewport": {
-		"x": -92,
-		"y": -354,
+		"x": -18,
+		"y": 46.20000000000002,
 		"zoom": 1
 	}
 }
