@@ -142,7 +142,7 @@
 					"hasComment": true,
 					"finishMode": "withSuccess"
 				},
-				"skake": false
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
@@ -1018,8 +1018,8 @@
 		}
 	],
 	"viewport": {
-		"x": 19,
-		"y": -351.6000000000002,
+		"x": 17,
+		"y": -289.60000000000014,
 		"zoom": 1
 	}
 }
