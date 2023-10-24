@@ -14,7 +14,9 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "co.basic": {}
-        }
+            "co.basic": {},
+            "co.first": {}
+        },
+        "name": "basic"
     }
 }
