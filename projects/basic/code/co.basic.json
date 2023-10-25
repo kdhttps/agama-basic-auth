@@ -146,7 +146,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1182,
@@ -758,7 +758,9 @@
 					"flowfilename": "",
 					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
+					"arguments": [
+						""
+					],
 					"logMessage": "",
 					"variableTypeCheck": false,
 					"templatePath": "",
@@ -778,7 +780,18 @@
 					"displayName": "Basic Flow",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"flowname": "co.basic"
+					"flowname": "co.basic",
+					"nodeIcon": "material-symbols:line-start-square",
+					"isTopLevelFlow": true,
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"hasComment": true,
+					"configParams": "{\n  \"secret\": \"as2332xx44e\"\n}"
 				},
 				"skake": false
 			},
@@ -786,7 +799,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -970,8 +983,8 @@
 		}
 	],
 	"viewport": {
-		"x": -18,
-		"y": 46.20000000000002,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
