@@ -14,7 +14,9 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "co.basic": {},
+            "co.basic": {
+                "secret": "as2332xx44e"
+            },
             "co.first": {}
         },
         "name": "basic"
