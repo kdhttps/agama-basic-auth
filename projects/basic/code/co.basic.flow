@@ -9,8 +9,8 @@ Repeat 3 times max
      authResult.uid = creds.username
      When authResult.success is true
           // return success true with user id
-          it_bnmus = { success: true, data: { userId: authResult.uid}}
-          Finish it_bnmus
+          it_kmlcb = { success: true, data: { userId: authResult.uid}}
+          Finish it_kmlcb
 // Auth failed after 3 retries, end flow returning false
-it_mztii = { success: false, error: "Your error message here" }
-Finish it_mztii
+it_ojhxo = { success: false, error: "Your error message here" }
+Finish it_ojhxo
