@@ -52,5 +52,21 @@
         ],
         "noDirectLaunch": [],
         "configs": {}
+    },
+    "test3": {
+        "projectName": "test3",
+        "description": "test",
+        "type": "community",
+        "author": "kdhttps",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/kdhttps/agama-basic-auth",
+        "githubUri": "https://github.com/kdhttps/agama-basic-auth",
+        "license": "apache-2.0",
+        "lastUpdated": "1699021686198",
+        "tags": [
+            "openid-connect"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
